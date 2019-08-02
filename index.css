@@ -1,0 +1,54 @@
+.smartphone{
+    position: relative;
+    top: 80px;
+    width: 320px;
+    height: 550px;
+    margin:auto;
+    border: 16px solid black;
+    border-top-width:70px;
+    border-bottom-width:110px;
+    border-radius:40px;
+    box-shadow: 0 0 0 5.5px hsla(252, 3%, 68%, 1);
+}
+
+.smartphone:before {
+    content:"";
+    display:block;
+    width:60px;
+    height: 6px;
+    position: absolute;
+    top:-30px;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background: #454545;
+    border-radius: 10px;
+}
+
+.camera{
+    content:"";
+    display:block;
+    width:3px;
+    height: 3px;
+    position: absolute;
+    top:-30px;
+    left:68%;
+    transform: translate(-50%, -50%);
+    border: 2px solid #354775;
+    box-shadow: 0 0 0 3px hsl(225,8.2%,19.2%);
+    background: black;
+    border-radius: 50%;
+}
+
+.smartphone:after{
+    content:"";
+    display: block;
+    width:55px;
+    height: 60px;
+    position: absolute;
+    left: 50%;
+    bottom: -120px;
+    transform: translate(-50%, -50%);
+    background: black;
+    border: 3px solid #454545;
+    border-radius:50%;
+}
